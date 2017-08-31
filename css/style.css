@@ -1,0 +1,112 @@
+html, body{font-family:'Raleway', sans-serif;color:#fff;font-size:16px;font-weight:400;}
+ul{list-style:none;}
+ul li{list-style:none;}
+
+.logo{margin-bottom:50px;}
+.logo figure{margin:0 auto;float:none;}
+.logo img{width:100%;height:auto;}
+
+/*ComingSoon*/
+.coming{margin:0px auto 0 auto;float:none;text-align:center;}
+.coming section{font-size:25px;margin-top:20px;}
+.keep{font-size:35px;}
+
+.footer{text-align:center;background-color:rgba(255,92,12,0.9);font-size:13px;padding:10px 5px;}
+
+/*HomePage*/
+.navbar-inverse{background-color:rgba(255,0,204,0.8) /*rgba(221,29,87,0.8)*/;border:solid 0px #000;}
+.navbar-brand{width:auto;display:none;}
+.navbar-brand img{width:100%;height:auto;float:left;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color:#ff5c0c;}
+
+/*ResMenu*/
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus{background-color:rgba(206, 1, 119, 1);border:solid 0px #000;}
+.navbar-inverse .navbar-toggle:hover{background-color:rgba(255, 92, 12, 1);border:solid 0px #000;}
+.navbar-collapse.in{background-color:rgba(206, 1, 119, 1);}
+.navbar-inverse .navbar-nav > li > a{color:#fff;font-weight:500;}
+.navbar-inverse .navbar-nav > li > a:hover{color:#fff;background-color:rgba(255, 92, 12, 1);}
+
+/*SocialMedia*/
+.social{float:right;padding:15px;text-align:right;}
+.sm-icon{width:18px;height:18px;margin:0 3px;padding:0;float:right;background:#fff;border-radius:4px 4px;}
+.sm-icon img{float:left;}
+
+/*Container*/
+.align-left{text-align:left;}
+.align-right{text-align:right;}
+.img-left{float:left;margin:0 40px 20px 0;}
+.img-right{float:right;margin:0 0 20px 40px;}
+.intro-section, .about-section, .services-section, .contact-section{padding-top:50px;height:auto;}
+.intro-section .container, .about-section .container, .services-section .container, .hair-section .container, .price-section .container, .contact-section .container{min-height:400px;}
+.contact-section .container{margin-bottom:0px;}
+
+/*
+.about-section .container{background:rgba(233,87,63,0.5);}
+.services-section .container{background:rgba(246,187,66,0.5);}
+.hair-section .container{background:rgba(55,188,155,0.5);}
+.price-section .container{background:rgba(140,193,82,0.5);}
+.contact-section .container{background:rgba(74,137,220,0.5);}
+*/
+
+.about-section{background:rgba(255,0,204,0.8);}
+.services-section, .hair-section, .makeups-section{background:rgba(0,0,0,0.9);}
+.contact-section{background:rgba(255,92,12,0.9);}
+/*.services-section{background:rgba(246,187,66,0.8);}
+.hair-section{background:rgba(55,188,155,0.8);}
+.makeups-section{background:rgba(140,193,82,0.8);}
+.contact-section{background:rgba(74,137,220,0.8);}*/
+
+/*Section Title*/
+.about-section .container h1, 
+.services-section .container h1, 
+.hair-section .container h1, 
+.makeups-section .container h1, 
+.contact-section .container h1{margin:0 0 30px 0;padding:0;text-align:center;font-size:60px;font-weight:100;text-transform:uppercase;}
+
+/*HomePage*/
+.home-content{margin-bottom:50px;}
+.intro-section{padding-top:20px;}
+.coming{margin-bottom:50px;}
+.box-img, .box-link{margin:0px;padding:0px;color:#fff;min-height:190px;}
+.box-img img{width:100%;height:100%;}
+.box-link{/*background:rgba(0,0,0,0);*/color:#000;padding:20px;font-size:24px;}
+.box-link span{font-weight:600;text-transform:uppercase;}
+
+
+/*.bg-abt, .bg-serv, .bg-hair, .bg-makeups, .bg-serv, .bg-cont{background:rgba(255,0,204,0.8);}
+.bg-abt{background:rgba(233,87,63,0.9);}
+.bg-serv{background:rgba(246,187,66,0.5);}
+.bg-hair{background:rgba(55,188,155,0.5);}
+.bg-price{background:rgba(140,193,82,0.5);}
+.bg-cont{background:rgba(74,137,220,0.5);}
+.bg-other{background:rgba(0,0,0,0);}*/
+
+/*Bg Banners*/
+.services-section{background:url(../images/bnr-beauty.jpg) no-repeat left top #fff;color:#333;}
+.hair-section{background:url(../images/bnr-hair.jpg) no-repeat right top #fff;color:#333;}
+.makeups-section{background:url(../images/bnr-makeups.jpg) no-repeat left top #fff;color:#333;}
+
+/*About*/
+.about-section .container{padding:50px 10px;}
+
+/*Services*/
+.services-section .container h1{text-align:right;color:#ee22c5;}
+.services-section ul li{text-align:right;margin-bottom:15px;}
+
+/*Hair*/
+.hair-section .container h1{text-align:left;color:#ee22c5;}
+.hair-section ul{margin:0;padding:0;}
+.hair-section ul li{text-align:left;margin-bottom:15px;}
+
+/*Makeups*/
+.makeups-section .container h1{text-align:right;color:#ee22c5;}
+.makeups-section ul{margin:0;padding:0;}
+.makeups-section ul li{text-align:right;margin-bottom:15px;}
+
+/*Contact*/
+.contact-section{text-align:left;}
+.contact-section h4{font-size:35px;}
+.contact-section strong{font-size:20px;}
+.contact-section iframe{width:100%;height:250px;margin-top:15px;}
+
+

@@ -1,0 +1,6 @@
+@media (min-width: 320px) and (max-width: 767px) {
+	.navbar-inverse{background-color:rgba(0,0,0,0.8);}
+	.navbar-brand{display:block;}
+	.social{width:130px;margin:0 auto;float:none;clear:both;}
+	.sm-icon{margin-bottom:10px;}
+}
